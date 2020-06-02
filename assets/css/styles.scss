@@ -521,7 +521,11 @@ section {
             color: #151515;
             font-size: 18px;
             line-height: 26px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+
+            &:nth-child(2) {
+                margin-bottom: 50px;
+            }
         }
 
         .about-text {
