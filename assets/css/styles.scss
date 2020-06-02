@@ -807,20 +807,6 @@ section {
         margin-bottom: 0px;
         position: relative;
 
-
-
-        &:after{
-            content: "";
-            width: 100%;
-            height: 400px;
-            position: absolute;
-            top: 0;
-            right: 0;
-            background: #151515 0% 0% no-repeat padding-box;
-            border-radius: 0px 0px 0px 250px;
-            z-index: 1;
-        }
-
         .title {
             @extend .jost-font;
             font-size: 44px;
